@@ -19,7 +19,7 @@ const ServicesSection = () => {
     <Services variants={fade} animate={controls} initial="hidden" ref={element}>
       <Description>
         <h2>
-          high <span>quality</span> services
+          High <span>Quality</span> Services
         </h2>
         <Cards>
           <Card>
@@ -92,6 +92,7 @@ const Card = styled.div`
       background: white;
       color: black;
       padding: 1rem;
+      border-radius: 50px;
     }
   }
 `;

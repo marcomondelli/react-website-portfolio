@@ -23,19 +23,19 @@ const ContactUs = () => {
         <Hide>
           <Social variants={titleAnimation}>
             <Circle />
-            <h2>Send us a message</h2>
+            <Link href="#">Send us a message</Link>
           </Social>
         </Hide>
         <Hide>
           <Social variants={titleAnimation}>
             <Circle />
-            <h2>Send an email</h2>
+            <Link href="#">Send an email</Link>
           </Social>
         </Hide>
         <Hide>
           <Social variants={titleAnimation}>
             <Circle />
-            <h2>Social Media</h2>
+            <Link href="#">Social Media</Link>
           </Social>
         </Hide>
       </div>
@@ -79,6 +79,13 @@ const Social = styled(motion.div)`
   h2 {
     margin: 2rem;
   }
+`;
+
+const Link = styled.a`
+  text-decoration: none;
+  color: #353535;
+  font-size: 2.5rem;
+  margin: 2rem;
 `;
 
 export default ContactUs;
